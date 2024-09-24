@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fact-list>
+	<fact>
+		<fact-text>The working environment has a profound impact on productivity and quality.</fact-text>
+		<author>Robert L. Glass</author>
+		<fact-type>Fact</fact-type>
+	</fact>
+	<fact>
+		<fact-text>New tools/techniques cause an initial loss of productivity/quality.</fact-text>
+		<author>Robert L. Glass</author>
+		<fact-type>Fact</fact-type>
+	</fact>
+	<fact>
+		<fact-text>Quality IS: a collection of attributes.</fact-text>
+		<author>Robert L. Glass</author>
+		<fact-type>Fact</fact-type>
+	</fact>
+	<fact>
+		<fact-text>Quality is NOT: user satisfaction, meeting requirements, achieving cost/schedule, or reliability.</fact-text>
+		<author>Robert L. Glass</author>
+		<fact-type>Fact</fact-type>
+	</fact>
+	<fact>
+		<fact-text>You can manage quality into a software product.</fact-text>
+		<author>Robert L. Glass</author>
+		<fact-type>Fallacy</fact-type>
+	</fact>
+	<fact>
+		<fact-text>Random test input is a good way to optimize testing.</fact-text>
+		<author>Robert L. Glass</author>
+		<fact-type>Fallacy</fact-type>
+	</fact>
+	<fact>
+		<fact-text>Software is usually tested at best at the 55-60 percent (branch) coverage level.</fact-text>
+		<author>Robert L. Glass</author>
+		<fact-type>Fact</fact-type>
+	</fact>
+	<fact>
+		<fact-text>100 percent coverage is still far from enough.</fact-text>
+		<author>Robert L. Glass</author>
+		<fact-type>Fact</fact-type>
+	</fact>
+	<fact>
+		<fact-text>Test tools are essential, but many are rarely used.</fact-text>
+		<author>Robert L. Glass</author>
+		<fact-type>Fact</fact-type>
+	</fact>
+	<fact>
+		<fact-text>Test automation rarely is. Most testing activities cannot be automated.</fact-text>
+		<author>Robert L. Glass</author>
+		<fact-type>Fact</fact-type>
+	</fact>
+</fact-list>
