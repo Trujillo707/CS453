@@ -24,11 +24,12 @@ public class FactsProject extends JFrame{
     private JPanel searchHistoryPanel;
     private JTextArea searchResults;
     private JTextArea bigQuoteLabel;
+    private JPanel bigQuotePanel;
     private JPanel searchResultPanel;
     private JTextField searchResult;
     private ButtonGroup modeRadioButtonGroup;
 
-    private static final String xmlFile = "C:/Users/carso/IdeaProjects/CS453/hw3/f24-facts/facts/data/facts.xml";
+    private static final String xmlFile = "f24-facts/facts/data/facts.xml";
     private FactList list;
     Parser parser = new Parser(xmlFile);
 
@@ -38,7 +39,7 @@ public class FactsProject extends JFrame{
         setTitle("Facts Project");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setContentPane(contentPane);
-        setSize(800,400);
+        setSize(850,400);
         list = parser.getFactList();
         // Main label settings
         displayRandomQuote();
