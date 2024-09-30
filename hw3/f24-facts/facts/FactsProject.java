@@ -4,6 +4,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
+/**
+ * Class for the FactsProject GUI.
+ * All significant Swing components are declared here, along with essential
+ * GUI behavior.
+ */
 public class FactsProject extends JFrame{
     private JPanel contentPane;
     private JLabel robertLGlassFactsLabel;
@@ -34,6 +39,10 @@ public class FactsProject extends JFrame{
     Parser parser = new Parser(xmlFile);
     private ArrayList<String> searchHistoryList;
 
+    /**
+     * Main window for the FactsProject program are made on creation.
+     * The EventListeners are created during object construction.
+     */
     public FactsProject() {
 
         // Overall Window settings and setup
